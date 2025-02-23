@@ -1,0 +1,137 @@
+
+.nb{
+  margin-right: 1rem;
+}
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.center svg{
+  margin-right: 1rem;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.row{
+  width:400px;
+}
+
+.btn1{
+  margin-bottom: 1rem;
+}
+.home img{
+  width:65%;
+}
+
+.blur{
+  width:100%;
+  position:fixed;
+  z-index: 999;
+  top:0;
+  height:60px;
+}
+.col a{
+  color: white;
+}
+.col a:hover{
+  color:white;
+  cursor:pointer;
+}
+.navbar-toggler-icon{
+  filter: invert(99%) sepia(5%) saturate(337%) hue-rotate(214deg) brightness(119%) contrast(100%);
+}
+.row{
+  margin-top: 80px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.navbar-expand-lg{
+  background-color: rgba(0,0,0,0.5);
+}
+.add{
+  display: flex;
+  width:100%;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.add button{
+  width:500px;
+  height:200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  font-size: 60px;
+  font-family:Italianno;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.5);
+  color: aliceblue;
+  border:2px solid white;
+}
+.add button:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.navbar-brand{
+  font-family: Italianno;
+  word-spacing: 10px;
+  letter-spacing: 4.5px;
+  font-weight: 800;
+}
+body,html{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.recipe-cart{
+  max-width: 500px;
+  width:90%;
+  max-height: 80vh;
+  margin-top:80px;
+  overflow-y: auto;
+}
+ @media(max-width:768px){
+  .recipe-cart{
+    max-height: 60vh;
+  }
+ }
+ .sign{
+  overflow: hidden;
+ }
+ .recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recipe-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.no{
+  color:whitesmoke;
+  font-family: cursive;
+  font-size: 60px;
+}
